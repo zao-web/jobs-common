@@ -1,5 +1,5 @@
 {
-    "name": "jobapis/jobs-common",
+    "name": "zao-web/jobs-common",
     "type": "library",
     "description": "Making it simple to integrate your application with job api providers.",
     "keywords": [
