@@ -400,7 +400,7 @@ class Job extends JobPosting implements JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize($serializeSetting = self::SERIALIZE_STANDARD)
+    public function jsonSerialize($serializeSetting = self::SERIALIZE_STANDARD): mixed
     {
         return $this->serialize($serializeSetting);
     }
